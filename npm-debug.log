@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'phantomjs' ]
+2 info using npm@1.1.33
+3 info using node@v0.8.1
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose config file C:\Users\narayan\.npmrc
+6 verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+7 verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+8 verbose read json C:\Users\narayan\Desktop\package.json
+9 verbose read json C:\Users\narayan\Desktop\node_modules\optimist\package.json
+10 verbose read json C:\Users\narayan\Desktop\node_modules\phantom\package.json
+11 verbose read json C:\Users\narayan\Desktop\package.json
+12 verbose cache add [ 'phantomjs', null ]
+13 silly cache add name=undefined spec="phantomjs" args=["phantomjs",null]
+14 verbose parsed url { pathname: 'phantomjs', path: 'phantomjs', href: 'phantomjs' }
+15 verbose lock phantomjs C:\Users\narayan\AppData\Roaming\npm-cache\30d7cd7d27a11d6a890d92b9c735feeed44ab6a8-phantomjs.lock
+16 verbose addNamed [ 'phantomjs', '' ]
+17 verbose addNamed [ null, '' ]
+18 verbose lock phantomjs@ C:\Users\narayan\AppData\Roaming\npm-cache\29cf7fd6a2e2ca9ddf635407a196af8194992322-phantomjs-.lock
+19 silly addNameRange { name: 'phantomjs', range: '', hasData: false }
+20 verbose url raw phantomjs
+21 verbose url resolving [ 'https://registry.npmjs.org/', './phantomjs' ]
+22 verbose url resolved https://registry.npmjs.org/phantomjs
+23 info retry registry request attempt 1 at 16:20:31
+24 http GET https://registry.npmjs.org/phantomjs
+25 http 404 https://registry.npmjs.org/phantomjs
+26 silly registry.get cb [ 404,
+26 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+26 silly registry.get     date: 'Fri, 07 Sep 2012 20:20:32 GMT',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'content-length': '52',
+26 silly registry.get     'cache-control': 'must-revalidate' } ]
+27 error 404 'phantomjs' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Windows_NT 6.1.7601
+29 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "phantomjs"
+30 error cwd C:\Users\narayan\Desktop\nodeProjects
+31 error node -v v0.8.1
+32 error npm -v 1.1.33
+33 error code E404
+34 error message 404 Not Found: phantomjs
+35 verbose exit [ 1, true ]
